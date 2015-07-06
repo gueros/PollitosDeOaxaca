@@ -61,7 +61,7 @@
                             <div class="row">
                                 <div class="col-sm-9">
                                     <div class="texto-mision">
-                                        <p>Nuestra mision es cumplir todos nuestros sue&ntilde;os juntos y me vale amor!!!</p>
+                                        <p>jeje</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
