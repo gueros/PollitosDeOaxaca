@@ -75,6 +75,11 @@
                         </div>
                     </div>
                 </section>
+
+                <section id="datocurioso2">
+                    <div class= "col-sm-12">
+                </section>
+
                 <section id="contacto">
                     <div class="col-sm-12">
                         <div class="col-sm-6 col-sm-offset-3">
@@ -171,6 +176,7 @@
         if(movil()){
             $("#home").css('background-attachment','local');
             $("#datocurioso").css('background-attachment','local');
+            $("#datocurioso2").css('background-attachment','local');
             $("#nosotros").css('background-attachment','local');
             $("#contacto").css('background-attachment','local');
         }
