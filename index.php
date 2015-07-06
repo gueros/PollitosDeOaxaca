@@ -61,7 +61,6 @@
                             <div class="row">
                                 <div class="col-sm-9">
                                     <div class="texto-mision">
-                                        <p>eres mi vida</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -78,6 +77,8 @@
 
                 <section id="datocurioso2">
                     <div class= "col-sm-12">
+
+                    </div>
                 </section>
 
                 <section id="contacto">
