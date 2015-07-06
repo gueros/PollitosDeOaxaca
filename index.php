@@ -61,7 +61,7 @@
                             <div class="row">
                                 <div class="col-sm-9">
                                     <div class="texto-mision">
-                                        <p>jeje</p>
+                                        <p>oye eres mi sue&ntilde;o hecho realidad.</p>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
