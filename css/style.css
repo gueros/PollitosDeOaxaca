@@ -545,3 +545,31 @@
 .cuadroContacto-listo{
 	left:0vh !important;
 }
+
+/************************ INFO CONTACTO *****************/
+
+#infocontacto{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url('../img/infocontacto/fondo.jpg') center top;
+	background-size: cover;
+	background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+}
+
+.container-info{
+	height: 100% !important;
+}
+
+.barra-info{
+	width: 100%;
+	height: 60%;
+	background: url('../img/infocontacto/barra.png') center top;
+	background-size: cover;
+	position: absolute;
+	bottom: 0px;
+}

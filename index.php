@@ -114,6 +114,22 @@
                         </div>
                     </div>
                 </section>
+
+                <section id="infocontacto">
+                    <div class="col-sm-12 container-info">
+                        <div class="barra-info">
+                            <div class="col-xs-6">
+
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="col-xs-6">
+                                    <p>Privada de Rancho Escondido #4 Santa Cruz Xoxocotl&aacute;n Oaxaca</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
     </div>
