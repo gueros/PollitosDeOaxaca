@@ -24,16 +24,7 @@
                         <img class="logo" src="img/home/logo.png">
                     </div>
                 </section>
-                <section id="datocurioso">
-                    <div class="col-sm-12">
-                        <div class="col-sm-5 col-sm-offset-7">
-                            <div class="textoCurioso">
-                                <p>Tenemos existencias para poder satisfacer el gusto y necesidades
-                                    de nuestros clientes.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+                
                 <section id="nosotros">
                     <div class="col-sm-12">
                         <div class="trianguloArriba"></div>
@@ -55,6 +46,18 @@
                         </div>
                     </div>
                 </section>
+
+                <section id="datocurioso">
+                    <div class="col-sm-12">
+                        <div class="col-sm-5 col-sm-offset-7">
+                            <div class="textoCurioso">
+                                <p>Tenemos existencias para poder satisfacer el gusto y necesidades
+                                    de nuestros clientes.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="mision">
                     <div class="col-sm-12" style="height:100%;">
                         <div class="col-sm-12 mision-info-container">
@@ -118,12 +121,17 @@
                 <section id="infocontacto">
                     <div class="col-sm-12 container-info">
                         <div class="barra-info">
-                            <div class="col-xs-6">
-
+                            <div class="col-xs-6" id="containerDireccion">
+                                <div class="col-xs-6" style:"margin-left:10px;">
+                                    <ul>
+                                        <li>01 (951) 51-7-05-05</li>
+                                        <li>01 (951) 51-7-27-14</li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="col-xs-6">
-                                <div class="col-xs-6">
-                                    <p>Privada de Rancho Escondido #4 Santa Cruz Xoxocotl&aacute;n Oaxaca</p>
+                            <div class="col-xs-6" id="containerDireccion">
+                                <div class="col-xs-6 col-xs-offset-6">
+                                    <p class="direccion">Privada de Rancho Escondido #4 Santa Cruz Xoxocotl&aacute;n Oaxaca</p>
                                 </div>
                             </div>
                         </div>

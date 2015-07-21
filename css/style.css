@@ -561,6 +561,16 @@
 	-ms-background-attachment: fixed;
 }
 
+#containerDireccion{
+	top: 80%;
+ 	transform: translate(0%,-80%);
+ 	-webkit-transform: translate(0%,-80%);
+ 	-moz-transform: translate(0%,-80%);
+ 	-ms-transform: translate(0%,-80%);
+ 	-o-transform: translate(0%,-80%);
+  	color: white;
+}
+
 .container-info{
 	height: 100% !important;
 }
