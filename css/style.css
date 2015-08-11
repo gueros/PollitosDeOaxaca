@@ -367,10 +367,11 @@
 	height: 100%;
 }
 
-.texto-mision{
+.texto-empresa{
 	background: rgba(255,255,255,0.6);
 	height: 100%;
 	width: 90%;
+	top: -100vh;
 	position: relative;
 	left: 50%;
 	transform: translate(-50%, 0%);
@@ -378,6 +379,36 @@
 	-ms-transform: translate(-50%, 0%);
 	-moz-transform: translate(-50%, 0%);
 	-o-transform: translate(-50%, 0%);
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.texto-mision{
+	opacity: 0;
+	transition: all ease 0.5s;
+	-webkit-transition: all ease 0.5s;
+	-ms-transition: all ease 0.5s;
+	-moz-transition: all ease 0.5s;
+	-o-transition: all ease 0.5s;
+}
+
+.texto-empresa-abierto{
+	top:0 !important;
+}
+
+.texto-filosofia{
+	display:none;
+}
+
+.texto-vision{
+	display:none;
+}
+
+.texto-abierto{
+	opacity: 1;
 }
 
 @media (max-width: 768px) {

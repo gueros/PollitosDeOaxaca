@@ -63,7 +63,16 @@
                         <div class="col-sm-12 mision-info-container">
                             <div class="row">
                                 <div class="col-sm-9">
-                                    <div class="texto-mision">
+                                    <div class="texto-empresa">
+                                        <div class="texto-mision">
+                                            <p>Mision</p>
+                                        </div>
+                                        <div class="texto-vision">
+                                            <p>Vision</p>
+                                        </div>
+                                        <div class="texto-filosofia">
+                                            <p>Filosofia</p>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -149,6 +158,7 @@
     var datocuriosoAnimado = false;
     var nosotrosAnimado = false;
     var contactoAnimado = false;
+    var textoEmpresaAnimado = false;
     function movil(){
         if(/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase())) return true;
         return false;
@@ -162,6 +172,13 @@
         $(".texto-nosotros p").addClass("texto-nosotros-cuerpo");
         $(".logo-nosotros").addClass("logo-nosotros-show");
         nosotrosAnimado = true;
+    }
+
+    function animarTextoEmpresa(){
+        if(textoEmpresaAnimado) return;
+        $(".texto-mision").addClass("texto-abierto");
+        $(".texto-empresa").addClass("texto-empresa-abierto");
+        textoEmpresaAnimado = true;
     }
 
     function animarContacto(){
@@ -187,6 +204,10 @@
 
                 if(active_section.attr("id") == "nosotros"){
                     animarNosotros();
+                }
+
+                if(active_section.attr("id") == "mision"){
+                    animarTextoEmpresa();
                 }
 
                 if(active_section.attr("id") == "contacto"){
