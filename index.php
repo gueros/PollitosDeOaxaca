@@ -77,9 +77,9 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="mision-botones-container">
-                                        <p class="mision center movil">Misi&oacute;n</p>
-                                        <p class="vision center movil">Visi&oacute;n</p>
-                                        <p class="filosofia center movil">Filosof&iacute;a</p>
+                                        <p data-boton="mision" class="mision center movil">Misi&oacute;n</p>
+                                        <p data-boton="vision" class="vision center movil">Visi&oacute;n</p>
+                                        <p data-boton="filosofia" class="filosofia center movil">Filosof&iacute;a</p>
                                     </div>
                                 </div>
                             </div>
@@ -176,7 +176,7 @@
 
     function animarTextoEmpresa(){
         if(textoEmpresaAnimado) return;
-        $(".texto-mision").addClass("texto-abierto");
+        mostrar("mision");
         $(".texto-empresa").addClass("texto-empresa-abierto");
         textoEmpresaAnimado = true;
     }
@@ -228,4 +228,33 @@
         }
         waypointsLoad();
     });
+
+    function esconder(str) {
+        $(".texto-"+str).fadeOut('');
+    }
+
+    function mostrar(str){
+        $(".texto-"+str).fadeIn('');
+    }
+
+    $(".mision-botones-container > p").click(function() {
+        var data = $(this).attr("data-boton");
+        if(data == "mision"){
+            esconder("filosofia");
+            esconder("vision");
+            mostrar("mision");
+            return;
+        }
+
+        if(data == "vision"){
+            esconder("mision");
+            esconder("filosofia");
+            mostrar("vision");
+            return;
+        }
+
+        esconder("vision");
+        esconder("mision");
+        mostrar("filosofia");
+    })
 </script>
