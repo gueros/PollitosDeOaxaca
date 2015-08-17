@@ -77,9 +77,9 @@
                                 </div>
                                 <div class="col-sm-3">
                                     <div class="mision-botones-container">
-                                        <p data-boton="mision" class="mision center movil">Misi&oacute;n</p>
-                                        <p data-boton="vision" class="vision center movil">Visi&oacute;n</p>
-                                        <p data-boton="filosofia" class="filosofia center movil">Filosof&iacute;a</p>
+                                        <p data-boton="mision" class="mision center movil inicio-mision texto-activo">Misi&oacute;n</p>
+                                        <p data-boton="vision" class="vision center movil inicio-vision">Visi&oacute;n</p>
+                                        <p data-boton="filosofia" class="filosofia center movil inicio-filosofia">Filosof&iacute;a</p>
                                     </div>
                                 </div>
                             </div>
@@ -178,6 +178,14 @@
         if(textoEmpresaAnimado) return;
         mostrar("mision");
         $(".texto-empresa").addClass("texto-empresa-abierto");
+        $(".inicio-mision").addClass("animado-mision");
+        $(".inicio-vision").addClass("animado-vision");
+        $(".inicio-filosofia").addClass("animado-filosofia");
+        setTimeout(function(){
+            $(".animado-mision").removeClass("inicio-mision");
+            $(".animado-vision").removeClass("inicio-vision");
+            $(".animado-filosofia").removeClass("inicio-filosofia");
+        },2000);
         textoEmpresaAnimado = true;
     }
 
@@ -231,10 +239,12 @@
 
     function esconder(str) {
         $(".texto-"+str).fadeOut('');
+        $(".animado-"+str).removeClass('texto-activo');
     }
 
     function mostrar(str){
         $(".texto-"+str).fadeIn('');
+        $(".animado-"+str).addClass('texto-activo');
     }
 
     $(".mision-botones-container > p").click(function() {

@@ -359,6 +359,59 @@
  	border-color: rgba(255,255,255,1);
 }
 
+.texto-activo{
+	border-color: rgba(255,255,255,1);
+}
+
+.inicio-mision{
+	opacity: 0;
+	transition: all ease 0.5s;
+ 	-webkit-transition: all ease 0.5s;
+ 	-ms-transition: all ease 0.5s;
+ 	-moz-transition: all ease 0.5s;
+ 	-o-transition: all ease 0.5s;
+}
+
+.inicio-vision{
+	opacity: 0;
+	transition: all ease 0.5s;
+ 	-webkit-transition: all ease 0.5s;
+ 	-ms-transition: all ease 0.5s;
+ 	-moz-transition: all ease 0.5s;
+ 	-o-transition: all ease 0.5s;
+ 	transition-delay: 0.5s;
+	-webkit-transition-delay: 0.5s;
+	-moz-transition-delay: 0.5s;
+	-o-transition-delay: 0.5s;
+	-ms-transition-delay: 0.5s;
+}
+
+.inicio-filosofia{
+	opacity: 0;
+	transition: all ease 0.5s;
+ 	-webkit-transition: all ease 0.5s;
+ 	-ms-transition: all ease 0.5s;
+ 	-moz-transition: all ease 0.5s;
+ 	-o-transition: all ease 0.5s;
+	transition-delay: 1s;
+	-webkit-transition-delay: 1s;
+	-moz-transition-delay: 1s;
+	-o-transition-delay: 1s;
+	-ms-transition-delay: 1s;
+}
+
+.animado-mision{
+	opacity: 1 !important;
+}
+
+.animado-vision{
+	opacity: 1 !important;
+}
+
+.animado-filosofia{
+	opacity: 1 !important;
+}
+
 .mision-botones-container{
 	width: 100%;
 }
