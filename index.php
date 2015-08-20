@@ -16,6 +16,25 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+    <div class="menu">
+        <div class="col-sm-1 col-sm-offset-1 boton-menu">
+            <p>NOSOTROS</p>
+        </div>
+        <div class="col-sm-1 col-sm-offset-1 boton-menu">
+            <p>TIENDA</p>
+        </div>
+        <div class="col-sm-3">
+        </div>
+        <div class="col-sm-1 boton-menu">
+            <p>SERVICIOS</p>
+        </div>
+        <div class="col-sm-2 boton-menu">
+            <p>LINEA DE GALLOS</p>
+        </div>
+        <div class="col-sm-1 boton-menu">
+            <p>CONTACTO</p>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -166,6 +185,7 @@
 
     function animarNosotros(){
         if(nosotrosAnimado) return;
+        $(".menu").addClass("menu-chico");
         $(".trianguloArriba").addClass("trianguloArriba-abierto");
         $(".trianguloAbajo").addClass("trianguloAbajo-abierto");
         $(".texto-nosotros h3").addClass("texto-nosotros-titulo");
