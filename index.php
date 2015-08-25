@@ -29,11 +29,20 @@
             <p>SERVICIOS</p>
         </div>
         <div class="col-sm-2 boton-menu">
-            <p>LINEA DE GALLOS</p>
+            <p>LINEAS</p>
+            <div class="col-sm-12 submenu">
+                <ul>
+                    <li class="boton-menu">GALLINAS</li>
+                    <li class="boton-menu">GALLOS</li>
+                </ul>
+            </div>
         </div>
         <div class="col-sm-1 boton-menu">
             <p>CONTACTO</p>
         </div>
+    </div>
+    <div class="menu-movil">
+
     </div>
     <div class="container">
         <div class="row">
@@ -185,7 +194,6 @@
 
     function animarNosotros(){
         if(nosotrosAnimado) return;
-        $(".menu").addClass("menu-chico");
         $(".trianguloArriba").addClass("trianguloArriba-abierto");
         $(".trianguloAbajo").addClass("trianguloAbajo-abierto");
         $(".texto-nosotros h3").addClass("texto-nosotros-titulo");
@@ -221,16 +229,32 @@
         datocuriosoAnimado = true;
     }
 
+    var menuChico = false;
+
     function waypointsLoad(){
         var sections = $("section"); //obtenemos las secciones
         sections.waypoint({
             handler: function (event, direction) { //verificamos que seccion esta seleccionada y si va hacia arriba o hacia abajo para decidir cual debe de ser el seleccionado
                 var active_section = $(this);
+                if(direction === 'up'){
+                    console.log('arriba');
+                    if(active_section.prev().attr('id') == "home"){
+                        $(".submenu").removeClass("submenu-chico");
+                        $(".menu").removeClass("menu-chico");
+                        menuChico = false;
+                        return;
+                    }
+                }
                 if(active_section.attr("id") == "datocurioso"){
                     animarDatoCurioso();
                 }
 
                 if(active_section.attr("id") == "nosotros"){
+                    if(!menuChico){
+                        $(".submenu").addClass("submenu-chico");
+                        $(".menu").addClass("menu-chico");
+                        menuChico = true;
+                    }
                     animarNosotros();
                 }
 
