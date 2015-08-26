@@ -43,7 +43,9 @@
         </div>
     </div>
     <div class="menu-movil">
-        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        <button class="boton-menu-movil">
+            <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </button>
     </div>
     <div class="container">
         <div class="row">

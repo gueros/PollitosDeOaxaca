@@ -14,6 +14,18 @@
     -o-transition:all 0.5s ease;
 }
 
+.boton-menu-movil{
+	position: absolute;
+    left: 10px;
+    top: 50%;
+    cursor: pointer;
+    transform: translate(0,-50%);
+    -webkit-transform: translate(0,-50%);
+    -ms-transform: translate(0,-50%);
+    -o-transform: translate(0,-50%);
+    -moz-transform: translate(0,-50%);
+}
+
 .logo-menu{
 	height: 100%;
 }
