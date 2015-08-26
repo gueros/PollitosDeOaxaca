@@ -23,7 +23,8 @@
         <div class="col-sm-1 col-sm-offset-1 boton-menu">
             <p>TIENDA</p>
         </div>
-        <div class="col-sm-3">
+        <div class="col-sm-3 logo-menu">
+            <img src="img/home/logo-menu.png"></img>
         </div>
         <div class="col-sm-1 boton-menu">
             <p>SERVICIOS</p>
@@ -42,7 +43,7 @@
         </div>
     </div>
     <div class="menu-movil">
-
+        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
     </div>
     <div class="container">
         <div class="row">
@@ -239,6 +240,7 @@
                 if(direction === 'up'){
                     console.log('arriba');
                     if(active_section.prev().attr('id') == "home"){
+                        $(".logo-menu").removeClass("logo-menu-mostrar");
                         $(".submenu").removeClass("submenu-chico");
                         $(".menu").removeClass("menu-chico");
                         menuChico = false;
@@ -251,6 +253,7 @@
 
                 if(active_section.attr("id") == "nosotros"){
                     if(!menuChico){
+                        $(".logo-menu").addClass("logo-menu-mostrar");
                         $(".submenu").addClass("submenu-chico");
                         $(".menu").addClass("menu-chico");
                         menuChico = true;

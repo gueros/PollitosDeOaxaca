@@ -14,6 +14,32 @@
     -o-transition:all 0.5s ease;
 }
 
+.logo-menu{
+	height: 100%;
+}
+
+.logo-menu > img{
+	height: 90%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.logo-menu-mostrar > img{
+	opacity: 1 !important;
+}
+
 .menu-movil{
 	width: 100%;
     height: 50px;
