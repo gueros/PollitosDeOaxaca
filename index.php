@@ -17,35 +17,42 @@
 </head>
 <body>
     <div class="menu">
-        <div class="col-sm-1 col-sm-offset-1 boton-menu">
+        <div class="col-sm-1 col-sm-offset-1 boton-menu" data-id="nosotros">
             <p>NOSOTROS</p>
         </div>
-        <div class="col-sm-1 col-sm-offset-1 boton-menu">
+        <div class="col-sm-1 col-sm-offset-1 boton-menu" data-id="tienda">
             <p>TIENDA</p>
         </div>
         <div class="col-sm-3 logo-menu">
             <img src="img/home/logo-menu.png"></img>
         </div>
-        <div class="col-sm-1 boton-menu">
+        <div class="col-sm-1 boton-menu" data-id="servicios">
             <p>SERVICIOS</p>
         </div>
         <div class="col-sm-2 boton-menu">
             <p>LINEAS</p>
             <div class="col-sm-12 submenu">
                 <ul>
-                    <li class="boton-menu">GALLINAS</li>
-                    <li class="boton-menu">GALLOS</li>
+                    <li class="boton-menu" data-id="gallinas">GALLINAS</li>
+                    <li class="boton-menu" data-id="gallos">GALLOS</li>
                 </ul>
             </div>
         </div>
-        <div class="col-sm-1 boton-menu">
+        <div class="col-sm-1 boton-menu" data-id="contacto">
             <p>CONTACTO</p>
         </div>
     </div>
     <div class="menu-movil">
-        <button class="boton-menu-movil">
+        <button class="boton boton-menu-movil">
             <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
         </button>
+    </div>
+    <div class="cuerpo-menu-movil">
+        <div class="col-sm-12">
+            <button class="boton cerrar-menu-movil">
+                <span class="glyphicon glyphicon-remove"></span>
+            </button>
+        </div>
     </div>
     <div class="container">
         <div class="row">
@@ -285,6 +292,14 @@
         }
         waypointsLoad();
     });
+
+    $(".boton-menu-movil").click(function(){
+        $(".cuerpo-menu-movil").addClass("menu-movil-abierto");
+    });
+
+    $(".cerrar-menu-movil").click(function(){
+        $(".cuerpo-menu-movil").removeClass("menu-movil-abierto");
+    })
 
     function esconder(str) {
         $(".texto-"+str).fadeOut('');

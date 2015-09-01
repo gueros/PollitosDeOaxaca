@@ -26,6 +26,52 @@
     -moz-transform: translate(0,-50%);
 }
 
+.boton{
+	background: none;
+	border:none;
+	color: white;
+	font-size: 20px;
+	transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+}
+
+.boton:focus{
+	border:none;
+	outline:none;
+}
+
+.boton:hover{
+	color:#FECC00;
+}
+
+.cerrar-menu-movil{
+	position: absolute;
+	right:20px;
+	top:20px;
+}
+
+.cuerpo-menu-movil{
+	width: 100%;
+	height:100vh;
+	z-index:2000;
+    background-color: #272759;
+    position: fixed;
+    top:-110vh;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+}
+
+.menu-movil-abierto{
+	top:0 !important;
+
+}
+
 .logo-menu{
 	height: 100%;
 }
