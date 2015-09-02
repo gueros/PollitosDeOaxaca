@@ -53,6 +53,16 @@
                 <span class="glyphicon glyphicon-remove"></span>
             </button>
         </div>
+        <div class="col-sm-12" style="height:100%;">
+            <ul class="lista-menu-movil">
+                <li class="boton-menu" data-id="nosotros">NOSOTROS</li>
+                <li class="boton-menu" data-id="tienda">TIENDA</li>
+                <li class="boton-menu" data-id="servicios">SERVICIOS</li>
+                <li class="boton-menu" data-id="gallinas">GALLINAS</li>
+                <li class="boton-menu" data-id="gallos">GALLOS</li>
+                <li class="boton-menu" data-id="contacto">CONTACTO</li>
+            </ul>
+        </div>
     </div>
     <div class="container">
         <div class="row">
