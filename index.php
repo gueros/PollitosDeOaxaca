@@ -113,13 +113,18 @@
                                 <div class="col-sm-9">
                                     <div class="texto-empresa">
                                         <div class="texto-mision">
-                                            <p>Mision</p>
+                                            <p>Lograr producci&oacute;n de pollito de engorda y pollita de postura de primera calidad para abastecer el mercado regional y 
+                                                el de traspatio del estado de Oaxaca a trav&eacute;s de un plantel de reproductoras 
+                                                de alta gen&eacute;tica y una planta de incubaci&oacute;n con tecnolog&iacute;a de vanguardia.</p>
                                         </div>
                                         <div class="texto-vision">
-                                            <p>Vision</p>
+                                            <p>Ser los lideres del mercado regional y de traspatio del estado de Oaxaca 
+                                                abasteciendo de manera estable un 60% de las necesidades del mismo.</p>
                                         </div>
                                         <div class="texto-filosofia">
-                                            <p>Filosofia</p>
+                                            <p>Alcanzar el objetivo y la misi&oacute;n de la empresa a trav&eacute;s de compa&ntilde;erismo, apoyo mutuo y 
+                                                compromiso dando al cliente la mejor atenci&oacute;n y asistencia t&eacute;cnica, 
+                                                ofreci&eacute;ndole un producto de calidad en el momento adecuado.</p>
                                         </div>
                                     </div>
                                 </div>
