@@ -304,6 +304,8 @@
             $("#datocurioso2").css('background-attachment','local');
             $("#nosotros").css('background-attachment','local');
             $("#contacto").css('background-attachment','local');
+            $("#mision").css('background-attachment','local');
+            $("#infocontacto").css('background-attachment','local');
         }
         waypointsLoad();
     });
