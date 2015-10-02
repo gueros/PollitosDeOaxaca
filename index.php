@@ -14,14 +14,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
 </head>
 <body>
     <div class="menu">
         <div class="col-sm-1 col-sm-offset-1 boton-menu" data-id="nosotros">
-            <p>NOSOTROS</p>
+            <p>HISTORIA</p>
         </div>
-        <div class="col-sm-1 col-sm-offset-1 boton-menu" data-id="tienda">
-            <p>TIENDA</p>
+        <div class="col-sm-1 col-sm-offset-1 boton-menu" data-id="mision">
+            <p>NOSOTROS</p>
         </div>
         <div class="col-sm-3 logo-menu">
             <img src="img/home/logo-menu.png"></img>
@@ -55,8 +58,8 @@
         </div>
         <div class="col-sm-12" style="height:100%;">
             <ul class="lista-menu-movil">
-                <li class="boton-menu" data-id="nosotros">NOSOTROS</li>
-                <li class="boton-menu" data-id="tienda">TIENDA</li>
+                <li class="boton-menu" data-id="nosotros">HISTORIA</li>
+                <li class="boton-menu" data-id="misiom">NOSOTROS</li>
                 <li class="boton-menu" data-id="servicios">SERVICIOS</li>
                 <li class="boton-menu" data-id="gallinas">GALLINAS</li>
                 <li class="boton-menu" data-id="gallos">GALLOS</li>
@@ -146,6 +149,63 @@
                     </div>
                 </section>
 
+                <section id="servicios">
+                    <div class= "col-sm-12" style="height:100%;">
+                        <div class="texto-servicios">
+                            <h1>Servicios</h1>
+                            <ul class="lista-servicios">
+                                <li>Asistencia t&eacute;cnica</li>
+                                <li>Venta de alimentos balanceados para aves</li>
+                                <li>Cotizaciones para programas de gobierno</li>
+                                <li>Elaboraci&oacute;n y surtimiento de programas de gobierno.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="rutas">
+                    <div class= "col-sm-12" style="height:100%;">
+                        <div class="texto-rutas">
+                            <h1>Rutas de distribuci&oacute;n</h1>
+                            <p>Actualmente contamos con diferentes rutas de distribuci&oacute;n sujetas a disponibilidad y viajes programados, nuestras rutas son en los siguientes puntos:</p>
+                            <ul class="lista-rutas">
+                                <li>Puebla</li>
+                                <li>Sur de Veracruz</li>
+                                <li>Chiapas</li>
+                                <li>Oaxaca</li>
+                            </ul>
+                            <p>*Los d&iacute;as de envi&oacute; y entrega son los martes</br>y viernes de todas las semanas del a&ntilde;o.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="gallos">
+                    <div class= "col-sm-12" style="height:100%;">
+                        <div class="header-gallos">
+                            <h1>L&iacute;nea de gallos</h1>
+                        </div>
+                        <div class="slider-container">
+                            <div id="owl-demo" class="owl-carousel">
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/1.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/2.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/3.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/4.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/5.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/6.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/7.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/8.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/9.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/10.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/11.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/12.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/13.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/14.jpg" alt="Lazy Owl Image"></div>
+                              <div class="item"><img class="lazyOwl" data-src="img/gallos/15.jpg" alt="Lazy Owl Image"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 <section id="contacto">
                     <div class="col-sm-12">
                         <div class="col-sm-6 col-sm-offset-3">
@@ -182,20 +242,35 @@
 
                 <section id="infocontacto">
                     <div class="col-sm-12 container-info">
+                        <div class="col-sm-5 col-sm-offset-1" style="margin-top: 50px;background-color: rgba(255,255,255,0.6);">
+                            <div class="telefonos">
+                                <h1>Tel&eacute;fonos</h1>
+                                <ul>
+                                    <li>01 (951) 51 7 05 05</li>
+                                    <li>01 (951) 51 7 27 14</li>
+                                    <li>01 (951) 51 7 04 90</li>
+                                </ul>
+                                <p>Horarios de atenci&oacute;n:</br>Lunes-Viernes de 9:00 a 16:00.</br>S&aacute;bados de 9:00 a 15:00.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-5" style="margin-top: 50px;background-color: rgba(255,255,255,0.6);margin-left:5px;">
+                            <div class="telefonos">
+                                <h1>E-mail</h1>
+                                <ul>
+                                    <li>ventas@pollitosdeoaxaca.com.mx</li>
+                                    <li>programas@pollitosdeoaxaca.com.mx</li>
+                                    <li>gerencia@pollitosdeoaxaca.com.mx</li>
+                                </ul>
+                                <p></br></br></br></p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-8 col-sm-offset-2" style="margin-top: 5px;background-color: rgba(255,255,255,0.6);">
+                            <p class="direccion">Privada de Rancho Escondido #4 Santa Cruz Xoxocotl&aacute;n Oaxaca</p>
+                        </div>
+
                         <div class="barra-info">
-                            <div class="col-xs-6" id="containerDireccion">
-                                <div class="col-xs-6" style:"margin-left:10px;">
-                                    <ul>
-                                        <li>01 (951) 51-7-05-05</li>
-                                        <li>01 (951) 51-7-27-14</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xs-6" id="containerDireccion">
-                                <div class="col-xs-6 col-xs-offset-6">
-                                    <p class="direccion">Privada de Rancho Escondido #4 Santa Cruz Xoxocotl&aacute;n Oaxaca</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -207,6 +282,9 @@
 </html>
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/waypoints.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
 <script type="text/javascript">
     var datocuriosoAnimado = false;
     var nosotrosAnimado = false;
@@ -289,6 +367,10 @@
                     animarTextoEmpresa();
                 }
 
+                if(active_section.attr("id") == "servicios"){
+                    $(".texto-servicios").addClass("animaServicios");
+                }
+
                 if(active_section.attr("id") == "contacto"){
                     animarContacto();
                 }
@@ -297,6 +379,16 @@
         });
     }
 
+    $(document).ready(function() {
+ 
+  $("#owl-demo").owlCarousel({
+        items : 3,
+        lazyLoad : true,
+        navigation : false
+      }); 
+     
+    });
+
     $(document).ready(function(){
         if(movil()){
             $("#home").css('background-attachment','local');
@@ -304,6 +396,8 @@
             $("#datocurioso2").css('background-attachment','local');
             $("#nosotros").css('background-attachment','local');
             $("#contacto").css('background-attachment','local');
+            $("#servicios").css('background-attachment','local');
+            $("#rutas").css('background-attachment','local');
             $("#mision").css('background-attachment','local');
             $("#infocontacto").css('background-attachment','local');
         }
@@ -327,6 +421,23 @@
         $(".texto-"+str).fadeIn('');
         $(".animado-"+str).addClass('texto-activo');
     }
+
+    $(function () {
+            $(".boton-menu").click(function (event) {
+                console.log("hola");
+                $.scrollTo(
+                           "#" + $(this).attr("data-id"),
+                           {
+                               duration: 2000,
+                               easing: 'easeInOutExpo',
+                               axis: 'y',
+                           }
+                           );
+                return false;
+
+            });
+
+        });
 
     $(".mision-botones-container > p").click(function() {
         var data = $(this).attr("data-boton");

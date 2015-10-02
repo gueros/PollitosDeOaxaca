@@ -667,6 +667,20 @@
 	top:0 !important;
 }
 
+.texto-empresa p{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    font-size: 20px;
+    color: #272759;
+}
+
 .texto-filosofia{
 	display: none;
 }
@@ -746,6 +760,123 @@
 	-o-background-attachment: fixed;
 	-ms-background-attachment: fixed;
 
+}
+
+/******************* SERVICIOS ********************************/
+
+#servicios{
+	width: 100%;
+	height: 100vh;
+	background: url('../img/servicios/fondo.jpg') center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+}
+
+.texto-servicios{
+	width: 90%;
+	height: 80%;
+	position: relative;
+	left:50%;
+	top:50%;
+	border: 3px solid white;
+	color:white;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+
+}
+
+.texto-servicios h1{
+	margin-left: 20px;
+	font-size: 45px;
+}
+
+.animaServicios{
+}
+
+.lista-servicios{
+	font-size: 24px;
+    margin: 5%;
+}
+
+.lista-servicios li{
+	padding-bottom: 2%;
+}
+
+/******************* RUTAS *********************************/
+
+#rutas{
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	background: url('../img/rutas/fondo.jpg') center bottom;
+	background-size: cover;
+	background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+}
+
+.texto-rutas{
+	font-size: 18px;
+	color: #272759;
+	width: 90%;
+	height: 80%;
+	position: relative;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	-webkit-transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	-moz-transform:translate(-50%,-50%);
+	-o-transform:translate(-50%,-50%);
+}
+
+.texto-rutas p{
+	margin-top: 20px;
+}
+
+.texto-rutas ul{
+	margin-top: 20px;
+}
+
+.lista-rutas{
+	list-style:none;
+}
+
+/******************* GALLOS *********************************/
+
+#gallos{
+	width: 100%;
+	height: 100vh;
+	color: #272759;
+	overflow: hidden;
+	background: white;
+	background-size: cover;
+	background-attachment: fixed;
+	-moz-background-attachment: fixed;
+	-webkit-background-attachment: fixed;
+	-o-background-attachment: fixed;
+	-ms-background-attachment: fixed;
+}
+
+.header-gallos{
+	width: 90%;
+	margin-top: 70px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%,0%);
+	-webkit-transform: translate(-50%,0%);
+	-moz-transform: translate(-50%,0%);
+	-ms-transform: translate(-50%,0%);
+	-o-transform: translate(-50%,0%);
 }
 
 /******************* CONTACTO *********************************/
@@ -873,9 +1004,68 @@
 
 .barra-info{
 	width: 100%;
-	height: 60%;
+	height: 50%;
 	background: url('../img/infocontacto/barra.png') center top;
 	background-size: cover;
 	position: absolute;
 	bottom: 0px;
+}
+
+.telefonos{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.telefonos h1{
+	text-align: center;
+	color: #272759;
+}
+
+.telefonos ul{
+	padding: 0px;
+    text-align: center;
+    list-style: none;
+    color: #272759;
+}
+
+.telefonos p{
+	text-align: center;
+	color:#272759;
+}
+
+.direccion{
+	text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: #272759;
+}
+
+.item > img{
+	height:100% !important;
+}
+
+.slider-container{
+	height: 50%;
+	margin-top: 5%;
+}
+
+#owl-demo{
+	height: 100% !important;
+}
+
+.owl-wrapper-outer{
+	height: 100% !important;
+}
+
+.owl-wrapper{
+	height: 100% !important;
+}
+
+.owl-item{
+	height: 100% !important
+}
+
+.item{
+	height: 100% !important;
 }
