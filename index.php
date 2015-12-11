@@ -12,6 +12,8 @@
     pollitos, pollitas, incubadora, oaxaca">
 	<title>Incuoax pollitos de oaxaca</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/owl.carousel.css" rel="stylesheet">
@@ -424,7 +426,7 @@
 
     $(function () {
             $(".boton-menu").click(function (event) {
-                console.log("hola");
+                $(".cuerpo-menu-movil").removeClass("menu-movil-abierto");
                 $.scrollTo(
                            "#" + $(this).attr("data-id"),
                            {

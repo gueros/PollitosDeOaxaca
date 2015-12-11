@@ -702,6 +702,10 @@
 		-o-transform: translate(-50%, 0%);
 	}
 
+	.barra-info{
+		display: none;
+	}
+
 	.movil{
 		position: absolute !important;
 		top: 10px !important;
